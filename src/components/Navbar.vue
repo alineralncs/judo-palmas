@@ -15,6 +15,37 @@ export default {
 }
 </script>
 <template>
+  <nav class="bg-white dark:bg-gray-900  ">
+    <div class="container flex flex-col items-center p-6 mx-auto">
+      <a href="#" class="mx-auto ">
+        <router-link class="navbar-brand" to="/"> <img src="../assets/judo_em_palmas_logo.png" class="w-auto h-12"
+            alt="logo" /></router-link>
+      </a>
+
+      <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300  ">
+        <a href="#" class="mx-2 text-gray-800 border-b-2 border-blue-500 dark:text-gray-200 sm:mx-6">
+          <router-link class="navbar-brand" to="/">Início</router-link></a>
+
+        <a href="#"
+          class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+
+          <router-link class="navbar-brand" to="/Mapa">Mapa</router-link>
+        </a>
+
+        <a href="#"
+          class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+          <router-link class="navbar-brand" to="/TextPage">História do Judô</router-link></a>
+
+        <a href="#"
+          class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+          <router-link class="navbar-brand" to="/Galeria">Galeria</router-link></a>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- 
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b rounded-xl shadow-xl">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 ">
       <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
@@ -55,8 +86,7 @@ export default {
         </ul>
       </div>
     </div>
-  </nav>
-  
+  </nav> -->
 </template>
   
 <style scoped>
@@ -66,11 +96,11 @@ export default {
 nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
-  
+
 }
-nav a{
+
+nav a {
   font-size: 1rem;
   color: #000000;
 }
-
 </style>

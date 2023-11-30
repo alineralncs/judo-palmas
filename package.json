@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hooper": "^0.3.4",
     "vue": "^3.3.8",
+    "vue-agile": "^2.0.0",
     "vue-router": "^4.2.5",
     "vue2-google-maps": "^0.10.7"
   },
