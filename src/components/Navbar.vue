@@ -23,7 +23,7 @@ export default {
       </a>
 
       <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300  ">
-        <a href="#" class="mx-2 text-gray-800 border-b-2 border-blue-500 dark:text-gray-200 sm:mx-6">
+        <a href="#" class="mx-2 text-gray-800 border-b-2 border-blue-100 dark:text-gray-200 sm:mx-6">
           <router-link class="navbar-brand" to="/">Início</router-link></a>
 
         <a href="#"

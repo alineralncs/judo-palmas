@@ -1,6 +1,19 @@
 <template>
-  
+  <iframe  class="mx-auto bg-black" src="https://www.google.com/maps/d/embed?mid=1LFM2JdDWYBClyE5HDEuizdG2ATJCo78&ehbc=2E312F" width="1000"
+    height="600"></iframe>
 </template>
+
+<style scoped> 
+iframe {
+  border-radius: 10px;
+
+}
+.i4ewOd-pzNkMb-haAclf {
+  background-color: blue;
+}
+</style>
+
+
 <!-- 
 <template>
   <GmapMap
