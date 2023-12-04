@@ -42,7 +42,7 @@ export default {
 </script>
 
 <template>
-    <header class="bg-white dark:bg-gray-900">
+    <header class="bg-white dark:bg-gray-900 text-justify justify-normal">
 
 
 
@@ -80,7 +80,7 @@ export default {
 
         </div>
 
-        <div class="container-fluid mx-auto pt-10 font-hoe">
+        <div class="container-fluid mx-auto pt-10 font-hoe text-justify justify-normal">
 
             <p class="mot text-3xl  pb-2 pt-6 ">
                 Para que o judô se implantasse em Palmas, foi necessário muito trabalho e esforço coletivo. Entre os

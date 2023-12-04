@@ -7,7 +7,7 @@ export default {
             tabs: [
                 { name: 'Celso Galdino' },
                 { name: 'Victor Kasuo' },
-                { name: 'Rômullo Lavinio' },
+                { name: 'Rômullo Laivno' },
             ],
         };
     },
@@ -288,7 +288,7 @@ export default {
                         </p>
                     </template>
 
-                    <template v-else-if="tab.name === 'Rômullo Lavinio'">
+                    <template v-else-if="tab.name === 'Rômullo Laivno'">
                         <div class=" mx-auto  font-hoe ">
 
                             <p class="mot text-3xl pb-2 pt-12 ">
