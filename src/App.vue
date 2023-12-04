@@ -1,8 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
-import HomePage from './components/HomePage.vue';
 import Footer from './components/Footer.vue';
-import Mapa from './components/Mapa.vue';
 </script>
 
 <template>

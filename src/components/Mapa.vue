@@ -1,16 +1,25 @@
 <template>
-  <iframe  class="mx-auto bg-black" src="https://www.google.com/maps/d/embed?mid=1LFM2JdDWYBClyE5HDEuizdG2ATJCo78&ehbc=2E312F" width="1000"
+  <div class="mx-auto items-center justify-center flex bg-slate-50 py-6">
+    <h1
+      class="text-xl font-semibold tracking-wide mx-auto justify-center font-hoe items-center text-gray-800 dark:text-white lg:text-xl">
+      Confira os todos os espaços de judô federados em Palmas-TO
+    </h1>
+  </div>
+  <div class="pt-6">
+  <iframe class="mx-auto  bg-black"
+    src="https://www.google.com/maps/d/embed?mid=1LFM2JdDWYBClyE5HDEuizdG2ATJCo78&ehbc=2E312F" width="1000"
     height="600"></iframe>
+  </div>
 </template>
 
-<style scoped> 
-iframe {
-  border-radius: 10px;
+<style scoped> iframe {
+   border-radius: 10px;
 
-}
-.i4ewOd-pzNkMb-haAclf {
-  background-color: blue;
-}
+ }
+
+ .i4ewOd-pzNkMb-haAclf {
+   background-color: blue;
+ }
 </style>
 
 

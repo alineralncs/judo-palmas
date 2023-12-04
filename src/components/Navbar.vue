@@ -23,7 +23,7 @@ export default {
       </a>
 
       <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300  ">
-        <a href="#" class="mx-2 text-gray-800 border-b-2 border-blue-100 dark:text-gray-200 sm:mx-6">
+        <a href="#" class="mx-2 text-gray-800  hover:border-blue-500 dark:text-gray-200 sm:mx-6">
           <router-link class="navbar-brand" to="/">Início</router-link></a>
 
         <a href="#"
@@ -32,14 +32,17 @@ export default {
           <router-link class="navbar-brand" to="/Mapa">Mapa</router-link>
         </a>
 
-        <a href="#"
+        <!-- <a href="#"
           class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
-          <router-link class="navbar-brand" to="/TextPage">História do Judô</router-link></a>
+          <router-link class="navbar-brand" to="">História do Judô</router-link></a> -->
 
         <a href="#"
           class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
-          <router-link class="navbar-brand" to="/Galeria">Galeria</router-link></a>
-
+          <router-link class="navbar-brand" to="/Entrevistas">Entrevistas</router-link></a>
+          <a href="#"
+          class="mx-2 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 sm:mx-6">
+          <router-link class="navbar-brand" to="/SobreNos">Sobre Nós</router-link></a>
+        
 
       </div>
     </div>

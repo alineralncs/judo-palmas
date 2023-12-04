@@ -5,9 +5,18 @@
 @tailwind utilities;
 
 /* @import url('https://fonts.googleapis.com/css?family=Newsreader'); */
+@font-face { 
+  font-family: "hoe"; 
+  src: url("../src/assets/hoefler.ttf"); 
+}
+
+@font-face { 
+  font-family: "italic"; 
+  src: url("../src/assets/italic.ttf"); 
+}
 
 body {
-  font-family: 'Newsreader', serif;
+  /* font-family: 'Newsreader', serif; */
   /* background-color: #FAFCFF; */
   background-color: #fff;
   color: black;

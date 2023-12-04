@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily :{ 
+      hoe: ["hoe","serif"], 
+      italic: ["italic","serif"],
+    } 
   },
   plugins: [],
 }

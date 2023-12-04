@@ -3,7 +3,7 @@
 <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-700 sm:text-center dark:text-gray-400 mx-auto">© 2023 <a href="#" class="hover:underline">
-        Essa reportagem foi desenvolvida por: Lizânia Castro, Vanessa Sabino, Yvana e Aline Rose
+        Essa reportagem foi desenvolvida por: Lizânia Castro, Vanessa Sabino, Yvana Felisbela e Aline Rose
     
     </a>. All Rights Reserved.
     </span>
